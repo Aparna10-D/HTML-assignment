@@ -1,0 +1,74 @@
+<html>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <fieldset>
+        <legend align = "center">Add Product Form</legend>
+        <table>
+        <form action = "success.html" method="get" name ="myForm">
+            <tr>
+            <td>Product Name:</td>
+            <td><input type = "text" /><br/></td>
+            </tr>
+
+            <tr>
+            <td>Price:</td>    
+            <td><input type = "number"/><br/></td>
+            </tr>
+
+            <tr>
+            <td>Brand:</td> 
+            <td>
+            <input type = "radio" value = "Samsung"/>Samsung
+            <input type = "radio" value = "Sony"/>Sony
+            <input type = "radio" value = "Lenova" />Lenova
+            <br/>
+            </td>
+            </tr>
+
+            <tr>
+            <td>Category:</td>
+            <td>
+            <input type = "checkbox"/>Laptop
+            <input type = "checkbox"/>Mobiles
+            <input type = "checkbox"/>TV
+            <br/>
+            </td>
+            </tr>
+
+            <tr>
+                <td>Comments<textarea rows = "10" cols = "10"></textarea></td>
+            <br/>
+            </tr>
+
+            <tr>
+                <td>
+                  
+                Date of Purchase:
+                <input type = "date"  min="2023-12-31" max="2024-12-31"><br/>
+
+                Contact:
+                <input type = "email" name = "email"><br/>
+
+                Add Product 
+                <form action = "success.html" method="post">
+                <input type="submit"/>
+                </form>
+                <br/>
+            
+                Clear
+                <input type="reset"/><br>
+                </td>
+            </tr>
+        </form>
+        </table>
+        </fieldset>
+       
+    </body>
+    </html>
+</html>
