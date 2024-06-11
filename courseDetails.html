@@ -1,0 +1,29 @@
+<html>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script>
+            var courses = ["Java", "Spring", "Angular", "React"];
+            let username = prompt("Enter username: ");
+            let courseName = prompt("Enter choice of course: ");
+            var flag = false;
+            alert (`Welcome ${username}`);
+            for (var i in courses){
+                if(courseName == courses[i]){
+                    flag= true;
+                    break;
+                }
+            }
+            if(flag){
+                document.write(`You have selected ${courseName}. <br>  The course fee is 5000. <br> The duration is 90hrs.`);
+            }
+            else{
+                document.write(`Course not available`);
+            }
+        </script>
+    </head>
+    </html>
+</html>
